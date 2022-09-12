@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b,add,sub,mul;
+	float div;
+	cout<< " enter first number :";
+	cin>>a;
+	cout<< " enter second number :";
+	cin>>b;
+	cout<<"\n addition:"<<a<<"+"<<b<<"="<<a+b;
+	cout<< " \n substraction:"<<a<<"-"<<b<<"="<<a-b;
+	cout<<" \n multiplication:"<<a<<" *"<<b<<" ="<<a*b;
+	cout<<" \n division:"<<a<<"/"<<b<<"="<<a/b;
+
+}
